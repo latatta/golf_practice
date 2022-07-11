@@ -1,0 +1,20 @@
+
+외부평가 실기 작업환경 : 
+1. jdk 설치 여부 확인 (필요에 따라서는 설치 직접 합니다.)
+2. 오라클 설치 여부 확인 (필요에 따라서는 설치 직접 합니다.)
+3. 이클립스 압축파일 풀기
+4. tomcat 압축파일 풀기
+5. workspace 폴더 만들기 : 폴더 위치 정확히 확인
+6. 이클립스에서 tomcat 서버 추가하기 (포트 변경 8081 ~ 이후의 값)
+
+7. 프로젝트 생성 : File 메뉴 - New - Dynamic Web Project
+8. JDBC 라이브러리 추가하기 : 아래경로에 ojdbc6.jar 파일을 WEB-INF아래 lib폴더로 드래그해서
+			 가져오기
+	C:\oraclexe\app\oracle\product\11.2.0\server\jdbc\lib
+
+
+9. 외부평가 소스는 jsp1 프로젝트 참고
+주요 파일 :jdbc 연결하는 OracleConnectUtil.java
+
+기본 소스코드는 열심히 이해하고 외우기.
+문제를 분석하고 SQL 작성하는 연습하기.
